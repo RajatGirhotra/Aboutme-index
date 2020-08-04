@@ -1,12 +1,25 @@
 html{
   display:inline-block;
   white-space:initial;
+  background-color: #212020;
 
+}
+
+body{
+  background-color: #212020!important;
+}
+
+h1,h2,h3, p,span{
+  color:white;
 }
 
 #heading{
 
   margin: 20px;
+}
+
+.jumbotron{
+  background-color: #2d2d2d !important;
 }
 
 #rajat{
