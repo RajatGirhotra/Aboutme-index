@@ -1,25 +1,33 @@
 html{
-  display:inline-block;
-  white-space:initial;
   background-color: #212020;
-
+  color: white;
+  font-family: 'Recursive', sans-serif;
 }
 
 body{
-  background-color: #212020!important;
+  margin:0px;
 }
 
-h1,h2,h3, p,span{
-  color:white;
-}
+
 
 #heading{
 
   margin: 20px;
 }
 
-.jumbotron{
-  background-color: #2d2d2d !important;
+
+
+/* h1,h2,h3, p,span{
+  color:white;
+} */
+
+#jumb{
+  background-color:#2d2d2d;
+}
+
+
+.top-part{
+  background-color: #2d2d2d;
 }
 
 .email{
@@ -33,12 +41,29 @@ h1,h2,h3, p,span{
 #rajat{
   width: 215px;
   display: inline;
+  margin-left: 30px;
+  margin-top: 30px;
 }
-.list-container{
+
+.name{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.list{
   border-style: solid;
   margin-top: 20px;
 
+
   display: inline-block;
+}
+
+.projects{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+a{
+  color: red;
 }
 
 p {
@@ -48,6 +73,9 @@ p {
 
 .bio{
   font-size: 11px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  margin-right: 40px
 }
 
 
@@ -60,7 +88,7 @@ p {
 
     overflow: hidden;
     font-family: 'Source Code Pro', monospace;
-
+    margin-top: 0px;
 }
 
 /* Animation */
@@ -86,3 +114,8 @@ p {
 .pr{
   text-align: center;
 }
+
+
+
+
+/* white mode toggle */
