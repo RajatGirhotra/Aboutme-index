@@ -2,7 +2,7 @@ const dark_colors =["white", "#aa9d9d", "#e8e299", "#888568", "#688881", "#da868
 
 const dark_fonts = ["red", "black", "#521414", "#774f4f"]
 
-const book_col = ["black", "yellow"]
+const book_col = ["red", "yellow"]
 
 const btn = document.getElementById('btn');
 const book = document.getElementById('book');
@@ -20,8 +20,8 @@ function submitButtonStyle(_this) {
   btn.style.backgroundColor = "red";
 }
 
-var div = document.getElementById( 'btn' );
-div.onclick = function() {
-  this.style.backgroundColor = book_col[Math.floor(Math.random() * book_col.length)];
+// var div = document.getElementById( 'book' );
+// div.onclick = function() {
+//   this.style.border = book_col[Math.floor(Math.random() * book_col.length)];
   
-};
+// };
