@@ -25,10 +25,22 @@ display: inline-block;
 
 }
 
-.theme-btn{
-  text-align: center;
+.btn{
+    margin-top:22px;  
 }
 
+.theme-btn{
+  position:fixed;
+	width:58px;
+	height:60px;
+	border-bottom-left-radius: 26px;
+	right:96px;
+	background-color: antiquewhite;
+	
+	
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;;
+}
 .out-jumb{
   text-align: center;
 }
