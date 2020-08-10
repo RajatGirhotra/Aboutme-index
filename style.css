@@ -1,4 +1,4 @@
-html{
+body{
   background-color: #212020;
   color: white;
   font-family: 'Recursive', sans-serif;
@@ -8,26 +8,16 @@ body{
   margin:0px;
 }
 
-
-
 #heading{
-
   margin: 20px;
   text-align: center;
-
 }
 
-
-
-/* h1,h2,h3, p,span{
-  color:white;
-} */
-
 #jumb{
-  background-color:#2d2d2d;
+  /* background-color:#2d2d2d; */
   box-shadow: 0px 0px 20px 2px rgba(0,0,0);
 border-radius: 26px;
-margin-top: 80px;
+margin-top: 40px;
 margin-left: 20px;
 margin-right: 20px;
 text-align: center;
@@ -35,6 +25,9 @@ display: inline-block;
 
 }
 
+.theme-btn{
+  text-align: center;
+}
 
 .out-jumb{
   text-align: center;
@@ -78,8 +71,8 @@ text-align: center;
 }
 
 .name{
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .list{
@@ -171,6 +164,3 @@ ul#list {
     margin-left: 10px;
     margin-right: 10px;
 }
-
-
-/* white mode toggle */
