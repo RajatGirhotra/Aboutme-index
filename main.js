@@ -20,8 +20,9 @@ function submitButtonStyle(_this) {
   btn.style.backgroundColor = "red";
 }
 
-// var div = document.getElementById( 'book' );
-// div.onclick = function() {
-//   this.style.border = book_col[Math.floor(Math.random() * book_col.length)];
-  
-// };
+// book.addEventListener('click', function(){
+
+//   document.book.style.color = dark_colors[Math.floor(Math.random() * dark_colors.length)];
+
+// })
+
