@@ -1,8 +1,8 @@
 const dark_colors =["white", "#aa9d9d", "#e8e299", "#888568", "#688881", "#da8686", "#86d2da", "#bec5c5"];
 
-const dark_fonts = ["red", "black", "#521414", "#774f4f"]
+const dark_fonts = ["black"]
 
-const book_col = ["red", "yellow"]
+
 
 const btn = document.getElementById('btn');
 const book = document.getElementById('book');
