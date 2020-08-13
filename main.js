@@ -1,4 +1,4 @@
-const dark_colors =["white", "#aa9d9d", "#e8e299", "#888568", "#688881", "#da8686", "#86d2da", "#bec5c5"];
+const dark_colors =["white", "#aa9d9d", "#e8e299", "#888568", "#688881", "#da8686", "#86d2da", "#bec5c5", "back.svg"];
 
 const dark_fonts = ["black"]
 
