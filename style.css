@@ -33,7 +33,7 @@ display: inline-block;
 
 .ribbon-vertical {
 	position: absolute;
-	right: 100px;
+	right: 14px;
   	border:       13px solid red;        /* All borders set */
   	border-top:  0;                      /* Remove left border */
   	border-bottom: 10px solid transparent; /* Right transparent */
@@ -67,6 +67,7 @@ display: inline-block;
 } */
 .out-jumb{
   text-align: center;
+  
 }
 
 .top-part{
