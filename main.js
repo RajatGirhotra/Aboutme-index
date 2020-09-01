@@ -1,6 +1,6 @@
-const dark_colors =["white", "#d9654e", "#ed7e47", "#fabf5a", "#fabf5a", "#fabf5a", "#86d2da", "#bec5c5", "back.svg"];
+const dark_colors =["#737272", "#525151", "#2e2d2d", "#000000",];
 
-const dark_fonts = ["black"];
+const dark_fonts = ["white"];
 
 
 
@@ -8,13 +8,19 @@ const btn = document.getElementById('btn');
 const book = document.getElementById('book');
 const color = document.querySelector(".color");
 
+
 btn.addEventListener('click', function(){
 
-  console.log("white")
   document.body.style.backgroundColor = dark_colors[Math.floor(Math.random() * dark_colors.length)];
   document.body.style.color = dark_fonts[Math.floor(Math.random() * dark_fonts.length)];
   
+  
 })
+
+function change(){
+  document.body.style.boxShadow = "white";
+}
+
 
 function submitButtonStyle(_this) {
   btn.style.backgroundColor = "red";
