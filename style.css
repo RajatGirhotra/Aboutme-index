@@ -147,7 +147,14 @@ p {
   margin-top: 40px;
   margin-right: 40px;
 }
-
+.bio-in{
+  border: 1px solid;
+    display: inline-flex;
+    flex-flow: column;
+    border: 10px solid #fafafa;
+  outline: 3px solid #333;
+  box-shadow: 15px 15px #f50057
+}
 .bio-list{
   margin: 20px;
 }
