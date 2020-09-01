@@ -151,8 +151,8 @@ p {
   border: 1px solid;
     display: inline-flex;
     flex-flow: column;
-    border: 10px solid #fafafa;
-  outline: 3px solid #333;
+    /* border: 10px solid #fafafa; */
+  outline: 1px solid #333;
   box-shadow: 15px 15px #f50057
 }
 .bio-list{
@@ -238,7 +238,7 @@ hr{
 .my-toolbox{
   
   text-align: center;
-  padding-top: 20px;
+  padding-top: 65px;
   padding-bottom: 20px;
 }
 
