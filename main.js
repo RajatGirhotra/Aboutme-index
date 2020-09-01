@@ -9,26 +9,6 @@ const headBtn = document.getElementById('headBtn');
 const book = document.getElementById('book');
 // const color = document.querySelector(".color");
 
-btn.addEventListener('click', function(){
-
-  if(document.body.style.backgroundColor == "white")
-  {
-  document.body.style.backgroundColor = "#464a47" ;
-  document.body.style.color = "white";
-  headBtn.style.backgroundColor = "black";
-  }
-  else
-  {
-  document.body.style.backgroundColor = "white" ;
-  document.body.style.color = "black";
-  ribbonVertical.style.backgroundColor = "white";
-
-  }
-  
-  
-  
-})
-
 
 
 // book.addEventListener('click', function(){
@@ -51,3 +31,17 @@ navToggle.addEventListener("click", function () {
   // }
   links.classList.toggle("show-links");
 });
+
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);

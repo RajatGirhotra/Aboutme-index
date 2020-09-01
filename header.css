@@ -27,7 +27,12 @@ Navbar
 ===============
 */
 
+#btn{
+    height : 30px;
+    width : 30px;
+    background-color :black;
 
+}
 .nav-header {
   display: flex;
   align-items: center;
@@ -136,3 +141,4 @@ Navbar
     color: var(--clr-primary-7);
   }
 }
+
