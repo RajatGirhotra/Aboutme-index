@@ -59,6 +59,7 @@ a {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
+  margin-top: 13px;
 
   em {
     margin-left: 10px;
@@ -84,6 +85,7 @@ a {
   position: absolute;
   right: 0;
   top: 0;
+  
   transition: .4s;
 }
 
