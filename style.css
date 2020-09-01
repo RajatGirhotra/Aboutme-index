@@ -59,7 +59,7 @@ a {
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-  margin-top: 13px;
+  margin-top: 17px;
 
   em {
     margin-left: 10px;
@@ -101,7 +101,7 @@ a {
 }
 
 input:checked + .slider {
-  background-color: #66bb6a;
+  background-color: #ed6663;
 }
 
 input:checked + .slider:before {
