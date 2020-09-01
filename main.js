@@ -13,6 +13,7 @@ btn.addEventListener('click', function(){
 
   document.body.style.backgroundColor = dark_colors[Math.floor(Math.random() * dark_colors.length)];
   document.body.style.color = dark_fonts[Math.floor(Math.random() * dark_fonts.length)];
+  document.linkColor = "red";
   
   
 })
