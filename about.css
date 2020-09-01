@@ -1,0 +1,89 @@
+
+
+.intro{
+    display: flex;
+    flex-flow: row;
+    margin-top: 50px;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.container-avatar{
+    margin:auto;
+}
+
+.hi{
+    margin:auto;
+    width:350px;
+}
+
+.avatar{
+    display: flex;
+    /* margin-right: 40px; */
+    align-items: center;
+    /* margin-right: 40px; */
+    /* align-items: center; */
+    /* margin-top: 40px; */
+    margin-bottom: 0px;
+    width: 140px;
+    
+    height: 140px;
+    border-radius: 50%;
+    
+}
+
+.introText{
+    display: block;
+    width: 50%;
+    margin-top: 30px;
+    margin:auto;
+}
+
+.edu{
+    border:2px solid;
+    margin-top: 60px;
+}
+
+.education{
+    font-size: 25px;
+    display: flex;
+    margin-left: 10%;
+}
+
+
+
+
+.aboutline{
+    background: linear-gradient(90deg,#e48a28 0,#cc4856 50%,#6e3a6c);
+    height: 1px;
+    margin: 4rem 0;
+}
+
+.institutes{
+    margin-left: 20%;
+    font-size: 20px;
+}
+.edsvg{
+    height: 70px;
+    width: 71px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+@media only screen and (min-width: 600px){
+    .education{
+        margin-left:25%;
+        font-size: 25px;
+    }
+    
+    .institutes{
+        font-size:20px;
+        margin-left:50%;
+    }
+
+    .hi{
+        width: 500px;
+    }
+}
