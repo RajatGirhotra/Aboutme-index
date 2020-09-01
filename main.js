@@ -1,6 +1,6 @@
-const dark_colors =["#737272", "#525151", "#2e2d2d", "#000000",];
+const dark_colors =["#056676", "#5eaaa8", "#a3d2ca", "#e8ded2", "#faf3dd", "#c8d5b9", "#8fc0a9", "#68b0ab"];
 
-const dark_fonts = ["white"];
+const dark_fonts = ["black"];
 
 
 
