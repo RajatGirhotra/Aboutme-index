@@ -382,4 +382,36 @@ hr{
  padding: 35px;
 }
 
+.navBtn{
+  
+    display: flex;
+    /* flex-grow: 2; */
+    flex-flow: wrap;
+    justify-content: center;
+    top: calc(50% - 100px);
+    left: calc(50% - 305px);
+    
+  
+}
 
+.ex-1{
+  width:100px;
+  height: 70px;
+  margin : 50px;
+  border: 1px solid;
+  box-shadow: 5px 10px #f50057, -5px -10px rgba(111, 202, 220, 0.75);
+   border-radius: 7px;
+   
+   transform: rotate(-35deg);
+   text-align: center;
+   
+}
+
+.inner-content{
+  margin-top : 50px;
+}
+
+.inNav{
+  transform: rotate(35deg);
+  margin-top:25px;
+}
