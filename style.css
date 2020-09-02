@@ -317,6 +317,8 @@ ul#list {
 .one{
   border: 1px solid #DDD;
   border-left:5px solid #f85e99;
+  border-right:5px solid #f85e99;
+  margin:3px;
   border-radius: 5px;
   transition: all .3s;  
 }
@@ -328,7 +330,9 @@ ul#list {
 
 .two{
   border: 1px solid #DDD;
+  border-right: 5px solid #34ebd8;
   border-left: 5px solid #34ebd8;
+  margin:3px;
   border-radius: 5px;
   transition: all .3s; 
 }
@@ -339,7 +343,9 @@ ul#list {
 
 .three{
   border: 1px solid #DDD;
-  border-left:5px solid #d788ff; 
+  border-right:5px solid #d788ff; 
+  border-left:5px solid #d788ff;
+  margin:3px;
   border-radius: 5px;
   transition: all .3s; 
 }
@@ -349,7 +355,9 @@ ul#list {
 }
 .four{
   border: 1px solid #DDD;
+  border-right:5px solid #ffa378;
   border-left:5px solid #ffa378;
+  margin:3px;
   border-radius: 5px;
   transition: all .3s; 
 }
