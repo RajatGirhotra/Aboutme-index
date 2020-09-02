@@ -3,9 +3,10 @@
 .intro{
     display: flex;
     flex-flow: row;
-    margin-top: 50px;
+    padding-top: 80px;
     /* align-items: center; */
     justify-content: center;
+
     
 }
 
@@ -36,54 +37,40 @@
 .introText{
     display: block;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 70px;
     margin:auto;
 }
 
 .edu{
-    border:2px solid;
+    border: 3px solid linear-gradient(to right, red, purple);
     margin-top: 60px;
+    padding: 70px;
+}
+
+#eduList{
+    margin:5px;
 }
 
 .education{
-    font-size: 25px;
+    font-size: 17px;
     display: flex;
-    margin-left: 10%;
+    flex-flow: row;
+    justify-content: center;
 }
 
-
-
-
-.aboutline{
-    background: linear-gradient(90deg,#e48a28 0,#cc4856 50%,#6e3a6c);
-    height: 1px;
-    margin: 4rem 0;
-}
-
-.institutes{
-    margin-left: 20%;
-    font-size: 20px;
-}
 .edsvg{
-    height: 70px;
-    width: 71px;
+    height: 50px;
+    width: 51px;
     display: inline-block;
     margin-left: 30px;
 }
 
-
-@media only screen and (min-width: 600px){
-    .education{
-        margin-left:25%;
-        font-size: 25px;
-    }
-    
-    .institutes{
-        font-size:20px;
-        margin-left:50%;
-    }
-
-    .hi{
-        width: 500px;
-    }
+.institutes{
+    display: flex;
+    flex-flow: column;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;   
 }
+
+
