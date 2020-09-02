@@ -391,6 +391,7 @@ hr{
     top: calc(50% - 100px);
     left: calc(50% - 305px);
     
+    
   
 }
 
@@ -401,17 +402,23 @@ hr{
   border: 1px solid;
   box-shadow: 5px 10px #f50057, -5px -10px rgba(111, 202, 220, 0.75);
    border-radius: 7px;
-   
+   cursor: pointer;
    transform: rotate(-35deg);
    text-align: center;
    
 }
+
+.ex-1:hover{
+  transform: rotate(1.5deg);
+}
+
 
 .inner-content{
   margin-top : 50px;
 }
 
 .inNav{
-  transform: rotate(35deg);
+  transform: rotate(-2deg);
   margin-top:25px;
 }
+
