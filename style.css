@@ -437,6 +437,9 @@ hr{
 
 .foot-text{
  padding: 35px;
+ margin-top: 50px;
+    /* margin: unset; */
+    text-align: center;
 }
 
 .navBtn{
