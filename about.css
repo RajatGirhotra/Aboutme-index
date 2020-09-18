@@ -73,4 +73,62 @@
     align-items: center;   
 }
 
+.skills{
+    border: 3px solid linear-gradient(to right, red, purple);
+    margin-top: -40px;
+    padding: 70px;
+}
 
+.edsvg2{
+    
+    width: 35px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.skillSet{
+    font-size: 17px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.skill{
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+}
+
+.skList{
+    display: flex;
+    flex-flow: column;
+}
+
+.skillItems{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.edsvg3{
+    
+    width: 55px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+
+table, td {
+    border: 1px solid black;
+}
+
+td{
+    
+    padding: 5px 50px 5px 50px;
+}
+
+tr{
+    padding: 20px;
+}
