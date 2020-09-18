@@ -38,7 +38,7 @@ background-attachment: fixed; */
   --primary-color: #9A97F3;
   --secondary-color: #818cab;
   --font-color: #e1e1ff;
-  --bg-color: #161625;
+  --bg-color: #15202b;
   --heading-color: #818cab;
 }
 
@@ -451,6 +451,7 @@ hr{
     justify-content: center;
     top: calc(50% - 100px);
     left: calc(50% - 305px);
+    margin-top : 30px;
     
     
   
@@ -466,7 +467,7 @@ hr{
    cursor: pointer;
    transform: rotate(-35deg);
    text-align: center;
-   
+  
    
 }
 
@@ -499,6 +500,22 @@ footer{
 
   .lang{
       margin: 5px;
+    }
+  }
+
+  @media screen
+  and (min-device-width: 750px){
+    .theme-switch-wrapper{
+      margin-left : 100px;
+    }
+
+    .nav-toggle{
+      margin-right: 100px;
+    }
+
+    .my-toolbox{
+      margin-left:80px;
+      margin-right: 80px;
     }
   }
 
