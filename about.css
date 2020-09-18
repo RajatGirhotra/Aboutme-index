@@ -118,6 +118,9 @@
     margin-left: 30px;
 }
 
+#language{
+    font-size:25px;
+}
 
 
 table, td {
@@ -131,4 +134,27 @@ td{
 
 tr{
     padding: 20px;
+}
+
+.languages{
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+
+}
+
+.langaugeSet{
+    font-size: 17px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+
+lang{
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
 }

@@ -492,9 +492,13 @@ footer{
 }
 
 @media screen
-  and (max-device-width: 320px){
+  and (max-device-width: 400px){
     .ex-1{
       margin:29px;
+    }
+
+  .lang{
+      margin: 5px;
     }
   }
 
