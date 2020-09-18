@@ -501,22 +501,24 @@ footer{
   .lang{
       margin: 5px;
     }
-  }
+}
 
-  @media screen
+@media screen
   and (min-device-width: 750px){
     .theme-switch-wrapper{
       margin-left : 100px;
-    }
+  }
 
-    .nav-toggle{
+  .nav-toggle{
       margin-right: 100px;
     }
 
-    .my-toolbox{
+  .my-toolbox{
       margin-left:80px;
       margin-right: 80px;
     }
-  }
+}
 
-  
+.cv{
+    width:340px;
+  }
