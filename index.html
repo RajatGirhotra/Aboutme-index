@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <script>
+
+$("#previewBtn").click(function() {
+  $("#preview").load("/home/home.php?id=3");
+});
+    </script>
+
   </head>
   <body>
-  <div class="content">
+  <div class="content" id = "preview">
 
     <nav>
       <div class="nav-center">
